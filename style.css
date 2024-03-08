@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#navbar::before {
+  content: " ";
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+#navbar img {
+  width: 65px;
+  height: 60px;
+}
+#navbar img:hover {
+  cursor: pointer;
+}
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 20px;
+  padding: 0 8px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 3px 28px;
+  border-radius: 10px;
+  left: 10px;
+}
+#navbar ul li a:hover {
+  color: white;
+  background-color: black;
+}
+#navbar input {
+  position: absolute;
+  right: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 6px 3px;
+}
+.Front {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 200px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.Front::before {
+  content: " ";
+  background: url("basil-delicious-food-459469.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.86;
+}
+.Front h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 120px;
+  background-color: black;
+}
+.Front p {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+.Front button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+.Front button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+.services-Container {
+  display: flex;
+}
+.services-Container h1 {
+  position: absolute;
+  left: 590px;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 160px;
+  background-color: black;
+}
+
+.services-Container .box {
+  border: 2px solid brown;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 230px;
+  background-color: rgb(254, 240, 238);
+}
+.services-Container h2 {
+  text-align: center;
+  margin: 10px;
+  font-size: 2rem;
+}
+.services-Container img {
+  height: 160px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+.services-Container p {
+  text-align: center;
+}
+.clients h1 {
+  position: absolute;
+  left: 590px;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 23px;
+  background-color: black;
+}
+.clients {
+  margin-top: 10px;
+}
+.clients::before {
+  content: " ";
+  position: absolute;
+  background: url("organic-food-for-healthy-nutrition-and-superfoods-EPFYH7J.jpg");
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+  opacity: 0.59;
+}
+.item img {
+  height: 100px;
+  margin-top: 110px;
+  padding: 10px;
+}
+.item .active {
+  margin-left: 200px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  text-align: center;
+}
